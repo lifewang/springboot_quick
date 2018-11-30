@@ -8,7 +8,7 @@
     注意：idea会出现问题，热部署无效！<br>
     setting配置compile中勾选build project automatically；<br>
     在pom文件中使用快捷键：ctrl+shift+alt+/ ，选中registry..
-    找到并勾选compiler.automake.allow.when.app.running...
-3、properties文件和yml文件
-    properties优先级高于yml文件    
+    找到并勾选compiler.automake.allow.when.app.running...<br>
+3、properties文件和yml文件<br>
+    properties优先级高于yml文件<br>    
  
