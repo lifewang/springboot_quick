@@ -10,5 +10,27 @@ person:
 #行内对象配置（不常用）
 #person: {name: zhangsan,age: 18,addr: beijing}
 
-server:
-  port: 8082
+#配置数组、集合(普通字符串)
+city:
+  - beijing
+  - tianjin
+  - chongqing
+  - shanghai
+
+#city: [beijng,tianjin,chongqing,shanghai]
+
+#配置数组、集合(对象数据)
+student:
+  - name: tom
+    age: 18
+    addr: beijing
+  - name: lucy
+    age: 17
+    addr: tianjin
+
+#student: [{name: tom,age: 18,addr: beijing},{name: lucy,age: 17,addr: tianjin}]
+
+#Map配置
+map:
+  key1: value1
+  key2: value2
